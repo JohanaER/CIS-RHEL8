@@ -60,4 +60,4 @@
 - name: "SECTION | 1.8 | Gnome Display Manager"
   when: rhel8cis_gui
   ansible.builtin.import_tasks:
-      file: cis_1.8.x.yml
+      file: cis_1.8.x.yml 
