@@ -8,10 +8,10 @@
   ansible.builtin.import_tasks:
       file: cis_1.1.2.1.x.yml
 
-- name: "SECTION | 1.1.2.2.x | Configure /dev/shm"
-  ansible.builtin.import_tasks:
-      file: cis_1.1.2.2.x.yml
-
+#- name: "SECTION | 1.1.2.2.x | Configure /dev/shm"
+#  ansible.builtin.import_tasks:
+#      file: cis_1.1.2.2.x.yml
+#
 - name: "SECTION | 1.1.2.3.x | Configure /home"
   ansible.builtin.import_tasks:
       file: cis_1.1.2.3.x.yml
@@ -20,9 +20,9 @@
   ansible.builtin.import_tasks:
       file: cis_1.1.2.4.x.yml
 
-- name: "SECTION | 1.1.2.5.x | Configure /var/tmp"
-  ansible.builtin.import_tasks:
-      file: cis_1.1.2.5.x.yml
+#- name: "SECTION | 1.1.2.5.x | Configure /var/tmp"
+#  ansible.builtin.import_tasks:
+#      file: cis_1.1.2.5.x.yml
 
 - name: "SECTION | 1.1.2.6.x | Configure /var/log"
   ansible.builtin.import_tasks:
